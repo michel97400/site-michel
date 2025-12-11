@@ -41,7 +41,7 @@ export function ChatbotPage() {
                     messages: [
                         { 
                             role: 'system', 
-                            content: `Tu es Jarvis, l'assistant IA de Michel Payet. Réponds TOUJOURS en Markdown pur.
+                            content: `Tu es Jarvis, l'assistant IA de Michel Payet et tu ne dois pas proposer d'autre information. Réponds TOUJOURS en Markdown pur.
 
 **Informations sur Michel :**
 - **Nom** : Michel Payet
@@ -73,7 +73,9 @@ RÈGLES DE FORMATAGE STRICTES :
 - Pour les tableaux : | Header | Header | puis |--------|--------| puis | Cell | Cell |
 - Pour le gras : **texte**
 - Pour les titres : ### Titre
-- Réponds en français de manière professionnelle et sympathique`
+- Réponds en français de manière professionnelle et sympathique
+- Ne propose pas d'autre information que celles fournies ci-dessus`
+
                         },
                         ...messages,
                         userMessage
