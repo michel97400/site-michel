@@ -45,6 +45,10 @@ jobs:
           output_location: "dist" # Built app content directory - optional
           github_id_token: ${{ steps.idtoken.outputs.result }}
           ###### End of Repository/Build Configurations ######
+        env:
+          VITE_GROQ_API_KEY: ${{ secrets.VITE_GROQ_API_KEY }}
+          VITE_GROQ_URL: ${{ secrets.VITE_GROQ_URL }}
+          VITE_MODEL_NAME: ${{ secrets.VITE_MODEL_NAME }}
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
