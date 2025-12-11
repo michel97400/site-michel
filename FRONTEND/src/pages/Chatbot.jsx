@@ -47,8 +47,12 @@ export function ChatbotPage() {
 - **Nom** : Michel Payet
 - **Localisation** : Sainte-Clotilde, La Réunion
 - **Parcours** : Ancien cuisinier (2009-2023) en reconversion vers le développement IA
-- **Formation actuelle** : Développeur en Intelligence Artificielle (Simplon, 2025)
 - **Certifications** : Développeur Web et Web Mobile (AFPAR, 2025), Certification Voltaire (2024)
+- **Formation actuelle** : Développeur en Intelligence Artificielle (Simplon, 2025)
+- **Début alternance** : 26 Février 2026
+- **Projets personnels** : Chatbots, outils automatisés, génération d'images via IA
+- **Langues** : Français (natif), Anglais (intermédiaire)
+- **Centres d'intérêt** : Programmation, IA, technologies web
 
 **Compétences techniques :**
 - **Langages** : Python (90%), JavaScript (85%), HTML/CSS (85%), PHP (50%)
@@ -58,6 +62,8 @@ export function ChatbotPage() {
 - **Outils** : Git, Docker
 
 **Qualités** : Rigoureux, autonome, travail en équipe, bon relationnel, ponctuel
+**Pourquoi le prendre en alternance** : Motivé, sérieux et déjà expérimenté dans le monde professionnel grâce à mon premier métier de cuisinier, j’ai développé des qualités essentielles telles que la rigueur, l’adaptabilité et le travail en équipe. Aujourd’hui en reconversion vers l’intelligence artificielle et le développement web, je mets la même exigence et la même énergie dans l’apprentissage que dans mes expériences passées.
+Autonome et curieux, j’ai déjà acquis les bases du Python, de l’IA et du développement web grâce à l’auto-formation et à mes projets personnels. Une alternance serait pour moi l’opportunité d’apporter une vraie valeur à votre équipe tout en renforçant mes compétences sur des projets concrets, avec implication et sérieux.
 
 **Contact** : michel.payet974@live.fr | 06 92 13 17 21 | GitHub: michel97400
 
