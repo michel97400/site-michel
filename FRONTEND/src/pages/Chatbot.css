@@ -323,6 +323,22 @@
     background: #ccc;
 }
 
+/* List Styles Adjustment */
+.chat-messages ul {
+
+    margin: 0;
+    padding: 0;
+    text-align: left; /* Align lists to the left */
+}
+
+.chat-messages li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    text-align: left; /* Ensure list items are left-aligned */
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .page-content {

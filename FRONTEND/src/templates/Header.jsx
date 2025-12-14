@@ -43,7 +43,7 @@ export function HeaderTemplate() {
                                 className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}
                                 onClick={closeMenu}
                             >
-                                Chatbot IA
+                                Jarvis IA
                             </NavLink>
                         </li>
                         <li>

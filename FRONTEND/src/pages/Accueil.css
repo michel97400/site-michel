@@ -18,20 +18,12 @@
     color: white;
     padding: 0.5rem 1.5rem;
     border-radius: 50px;
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: 500;
     margin-bottom: 1.5rem;
 }
 
-.hero-title {
-    font-size: 3.5rem;
-    font-weight: 800;
-    background-color: rgb(8, 8, 8);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    margin-bottom: 1.5rem;
-}
+
 
 .hero-subtitle {
     font-size: 1.2rem;
@@ -43,6 +35,49 @@
 
 .hero-subtitle strong {
     color: #764ba2;
+}
+
+.hero-assist-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    gap: 1rem;
+}
+
+.hero-assistant {
+    font-size: 1.6rem;
+    color: #333;
+    font-weight: 600;
+}
+
+.button_assistant {
+
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.975rem 1.75rem;
+    border-radius: 22px;
+    font-weight: 600;
+    text-decoration: none;
+    background: #3F5EFB;
+    background: radial-gradient(circle,rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+.button_assistant:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.5);
+    border: 1px solid #db0101;
+}   
+
+.info-button {
+    display: flex;
+    color: #ac2d2d;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    align-items: center;
 }
 
 .hero-buttons {

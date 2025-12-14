@@ -5,7 +5,7 @@ import { HeaderTemplate } from './templates/Header'
 import { AccueilPage } from './pages/Accueil'
 import { ContactPage } from './pages/Contact'
 import { ChatbotPage } from './pages/Chatbot'
-
+import { FooterTemplate } from './templates/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +19,7 @@ function App() {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/chatbot" element={<ChatbotPage />} />
         </Routes>
+        <FooterTemplate />
       </BrowserRouter>
     </>
   )
