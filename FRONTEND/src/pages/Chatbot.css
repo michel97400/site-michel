@@ -60,6 +60,7 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    max-height: calc(100vh - 220px); /* Adjusted height to account for added space */
 }
 
 .message {
@@ -254,55 +255,44 @@
 
 /* Input Form */
 .chat-input-form {
+    position: relative;
+    bottom: 0;
     display: flex;
-    gap: 0.75rem;
-    padding: 1rem 1.5rem;
-    background: #f8f9ff;
-    border-top: 1px solid #e9ecef;
+    padding: 0.5rem 1rem; /* Reduced padding to make the input card smaller */
+
+    margin-top: 1rem;
+    width: 90%; /* Reduced width */
+    max-width: 800px; /* Set a maximum width */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
 }
 
 .chat-input {
     flex: 1;
-    padding: 0.875rem 1.25rem;
-    border: 2px solid #e9ecef;
-    border-radius: 25px;
-    font-size: 0.95rem;
+    padding: 1.5rem; /* Reduced padding inside the input field */
+
+    border-radius: 20px;
+    font-size: 1rem;
     outline: none;
-    transition: all 0.3s ease;
-}
-
-.chat-input:focus {
-    border-color: #667eea;
-    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
-}
-
-.chat-input::placeholder {
-    color: #aaa;
+    margin-right: 0.5rem;
 }
 
 .chat-send-btn {
-    width: 48px;
-    height: 48px;
+    width: 40px; /* Reduced size of the send button */
+    height: 40px;
     border-radius: 50%;
-    border: none;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.3s ease;
-    flex-shrink: 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease;
 }
 
-.chat-send-btn:hover:not(:disabled) {
-    transform: scale(1.05);
-    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
-}
-
-.chat-send-btn:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
+.chat-send-btn:hover {
+    transform: scale(1.1);
 }
 
 /* Scrollbar */
